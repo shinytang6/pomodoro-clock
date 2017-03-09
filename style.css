@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
+body{
+	 font-family: Open Sans, Arial;
+     background-color: #373535;
+     text-align: center;
+     color: white;
+}
+h1{
+	 font-family: 'Pacifico';
+	 font-size: 4em;
+	 
+
+}
+p{
+	font-size: 3em;
+}
+h3{
+	font-size: 12px;
+}
+span{
+    font-size: 30px;
+
+}
+
+
+.break,.session{
+	display: inline-block;
+
+}
+.session{
+	margin-left: 30px;
+}
+button{
+	border: none;
+	color: white;
+	background-color: #373535;
+	font-size: 20px;
+	cursor: pointer;
+	outline: none;
+}
+.timber{
+	border: 2px solid #4A794A;
+	border-radius: 500px;
+	width: 300px;
+	height: 300px;
+	margin:50px auto auto auto;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+.bg{
+	
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: -1;
+	width: 300px;
+}

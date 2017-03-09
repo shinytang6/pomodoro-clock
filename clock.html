@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clock</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="vue.js"></script>
+	
+</head>
+<body>
+  <h1>FreeCodeCamp</h1>
+  <div id="clock">
+  <div  id="count">
+  <div class="break">
+     <h3>BRRAK LENGTH</h3>
+     <button v-on:click="minusBreak">-</button>
+     <span>{{breaklength}}</span>
+     <button v-on:click="addBreak">+</button>
+  </div>
+  <div class="session">
+     <h3>SESSION LENGTH</h3>
+     <button v-on:click="minusSession">-</button>
+     <span>{{sessionlength}}</span>
+     <button v-on:click="addSession">+</button>
+  </div>
+  </div>
+
+  <div class="timber"  v-bind:id="message" v-on:click="toggle(message)">
+  	  <p>{{sessionName}}</p>
+  	  <p>{{timeLeft}}</p>
+      <span class="bg" v-bind:style="{height:ht+'%',backgroundColor:bgc}"></span>
+  </div>
+  </div>
+</body>
+<script type="text/javascript" src="script.js"></script> 
+</html>
