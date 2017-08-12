@@ -1,3 +1,4 @@
-# Pomodoro Clock    
-
-框架：Vue.js
+## Pomodoro Clock    
+This is a pomodoro clock
+frame：Vue.js
+language:html,css,js
