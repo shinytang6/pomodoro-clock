@@ -2,6 +2,6 @@
 
 This is a pomodoro clock
 
-frame：Vue.js
+frame： Vue.js
 
-language:html,css,js
+language： html,css,js
